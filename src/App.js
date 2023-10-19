@@ -9,16 +9,16 @@ import ScrollButton from "./components/ScrollBtn/ScrollButton";
 
 const App = () => {
   return (
-    <div>
-        <div>
+    <main>
+        <nav>
           <Navbar/>
-        </div>
+        </nav>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/cart" element={<Cart/>} />
         </Routes>
         <ScrollButton/>
-    </div>
+    </main>
   );
 };
 

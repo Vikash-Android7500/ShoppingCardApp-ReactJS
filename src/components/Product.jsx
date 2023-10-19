@@ -25,7 +25,7 @@ const Product = ({ post }) => {
           {title}
         </p>
       </div>
-      
+
       <div>
         <p className="w-40 text-gray-400 font-normal text-[10px] text-left">
           {description.split(" ").slice(0, 10).join(" ") + "..."}
@@ -41,33 +41,27 @@ const Product = ({ post }) => {
           <p className="text-green-600 font-semibold">${price}</p>
         </div>
 
-        {
-          cart.some((p) => p.id === post.id) 
-        
-        ? (
+        {cart.some((p) => p.id === post.id) ? (
           <button
-            className="text-gray-700 border-2 border-gray-700 rounded-full font-semibold 
-            text-[12px] p-1 px-3 uppercase 
+            className="text-gray-700 whitespace-nowrap border-2 border-gray-700 rounded-full sm:font-semibold 
+            font-bold text-[8px] sm:text-xs p-1 px-3 uppercase 
             hover:bg-gray-700
             hover:text-white transition duration-300 ease-in"
             onClick={removeCart}
           >
             Remove Item
           </button>
-        ) 
-        : (
+        ) : (
           <button
-            className="text-gray-700 border-2 border-gray-700 rounded-full font-semibold 
-            text-[12px] p-1 px-3 uppercase 
+            className="text-gray-700 border-2 border-gray-700 rounded-full sm:font-semibold 
+           font-bold text-[8px] sm:text-xs p-1 px-3 uppercase 
             hover:bg-gray-700
             hover:text-white transition duration-300 ease-in"
             onClick={addToCart}
           >
             Add to Cart
           </button>
-        )
-        
-        }
+        )}
       </div>
     </div>
   );

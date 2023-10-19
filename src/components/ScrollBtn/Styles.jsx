@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Heading = styled.h1`
   text-align: center;
-  color: green;
+  color: pink;
 `;
 
 export const Content = styled.div`
@@ -13,11 +13,11 @@ export const Content = styled.div`
 export const Button = styled.div`
   position: fixed;
   width: 100%;
-  left: 90%;
-  bottom: 10%;
+  left: 85%;
+  bottom: 18%;
   height: 20px;
-  font-size: 3rem;
+  font-size: 2rem;
   z-index: 1;
   cursor: pointer;
-  color: red;
+  color: green;
 `;
