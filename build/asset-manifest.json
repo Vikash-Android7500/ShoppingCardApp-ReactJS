@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ShoppingCardApp-ReactJS/static/css/main.a20c68b0.css",
+    "main.js": "/ShoppingCardApp-ReactJS/static/js/main.13280bbc.js",
+    "static/media/ErrerPage.png": "/ShoppingCardApp-ReactJS/static/media/ErrerPage.e1e478ea7708600b1b79.png",
+    "index.html": "/ShoppingCardApp-ReactJS/index.html",
+    "main.a20c68b0.css.map": "/ShoppingCardApp-ReactJS/static/css/main.a20c68b0.css.map",
+    "main.13280bbc.js.map": "/ShoppingCardApp-ReactJS/static/js/main.13280bbc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a20c68b0.css",
+    "static/js/main.13280bbc.js"
+  ]
+}
